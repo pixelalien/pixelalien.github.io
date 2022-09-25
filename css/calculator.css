@@ -10,12 +10,23 @@ body {
 }
 .wrapper {
 	width: 400px;
+	margin-left: 40px;
 }
 
 .screen {
+	box-sizing: content-box;
 	background-color: #000;
 	color: #fff;
 	min-height: 60px;
+	font-size: 28px;
+	text-align: right;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+}
+.screen p {
+	margin: 0;
+	flex: 1;
 }
 
 .calc-buttons {
@@ -26,6 +37,8 @@ body {
 
 .calc-buttons button {
 	background-color: #d8d9db;
+	font-size: 35px;
+	padding: 20px 0;
 }
 
 .calc-buttons button:hover {
