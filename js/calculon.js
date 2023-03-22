@@ -13,8 +13,8 @@ buttonWrapper.addEventListener("click", function(e) {
 	}
 	else {
 		console.log("memory start: ",memory);
-		memory = memory + bVal;
-		console.log("bVal: ",bVal," memory: ",memory);
+		memory = memory + e.target.innerText;
+		console.log("tVal: ",e.target.innerText," memory: ",memory);
 	}
 	// if (event.currentTarget )
 	// console.log(e.target.innerText)
