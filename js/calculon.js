@@ -21,7 +21,7 @@ buttonWrapper.addEventListener("click", function(e) {
 }, false);
 // function displayClick() {
 // }
-const bw = document.querySelector(".calc-buttons")
+// const bw = document.querySelector(".calc-buttons")
 function fts() {
 	bw.addEventListener("click", function(){
 		console.log("clickety click")
